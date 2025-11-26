@@ -1,6 +1,6 @@
 pipeline {
     agent any // Designates where the pipeline will run
-parameter{
+parameters{
     string(name: 'MESSAGE', defaultValue: 'Hello', description: 'A message to display')
 }
     stages {
@@ -12,4 +12,5 @@ parameter{
     }
 
 }
+
 
